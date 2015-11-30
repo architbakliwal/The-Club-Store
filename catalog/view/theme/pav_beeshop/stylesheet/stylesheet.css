@@ -8206,19 +8206,20 @@ body.version-3 #page {
 */
 
 #topbar {
-    background: #fafafa;
-    color: #8a8a8a;
+    background: #F64747;
+    color: #000000;
     font-size: 13px;
-    border-bottom: 1px solid #d9d9d9;
+    border-bottom: 1px solid #F64747;
     padding: 5px 0;
 }
 
 #topbar a {
-    color: #8a8a8a;
+    color: #000000;
+    font-weight: bold;
 }
 
 #topbar a:hover {
-    color: #F64747;
+    color: #2c3e50;
     -webkit-transition: all 0.2s ease-in-out 0s;
     -o-transition: all 0.2s ease-in-out 0s;
     transition: all 0.2s ease-in-out 0s;
@@ -12261,4 +12262,20 @@ body .owl-carousel .owl-wrapper-outer {
     .tab-v3 .nav-tabs > li {
         margin-bottom: 0;
     }
+}
+
+
+/* Custom Styles */
+
+.pavcontentslider {
+    padding: 0 15px;
+}
+
+.lowercase h3,
+.lowercase h4 {
+    text-transform: none;
+}
+
+body {
+    background: #ffffff url("../image/pattern/furley_bg.png") repeat right top;
 }
