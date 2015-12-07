@@ -2534,7 +2534,7 @@ fieldset[disabled] .btn-inverse-light.active {
 .call-to-action.light-style h1 {
     color: #fff;
     font-size: 100px;
-    font-family: "proxima_thin", sans-serif;
+    font-family: "roboto", sans-serif;
 }
 
 .call-to-action.light-style p {
@@ -2562,7 +2562,7 @@ fieldset[disabled] .btn-inverse-light.active {
 
 .call-to-action h1 {
     font-size: 70px;
-    font-family: "proxima_bold", sans-serif;
+    font-family: "roboto", sans-serif;
 }
 
 .call-to-action p {
@@ -3115,7 +3115,7 @@ fieldset[disabled] .btn-inverse-light.active {
     position: relative;
     color: #FFFFFF;
     font-size: 20px;
-    font-family: "proxima_semibold", sans-serif;
+    font-family: "roboto", sans-serif;
 }
 
 .heading p,
@@ -3752,7 +3752,7 @@ fieldset[disabled] .btn-inverse-light.active {
 
 .feature-box-v2 .fbox-body h4 {
     color: #242424;
-    font-family: "proxima_semibold", sans-serif;
+    font-family: "roboto", sans-serif;
     font-size: 18px;
 }
 
@@ -4846,7 +4846,7 @@ fieldset[disabled] .btn-inverse-light.active {
 
 .latest-posts a {
     text-transform: none;
-    font-family: "proxima_regular", sans-serif !important;
+    font-family: "roboto", sans-serif !important;
 }
 
 .latest-posts .latest-posts-title {
@@ -4880,7 +4880,7 @@ fieldset[disabled] .btn-inverse-light.active {
 
 .latest-posts .shortinfo {
     color: #333333;
-    font-family: "proxima_thin", sans-serif;
+    font-family: "roboto", sans-serif;
     padding-bottom: 30px;
 }
 
@@ -5098,7 +5098,7 @@ fieldset[disabled] .btn-inverse-light.active {
     position: relative;
     letter-spacing: 0;
     line-height: 20px;
-    font-family: "proxima_bold", sans-serif;
+    font-family: "roboto", sans-serif;
 }
 
 .latest-posts-v6 .latest-posts-body .latest-posts-meta .panel-title:after,
@@ -5543,7 +5543,7 @@ fieldset[disabled] .btn-inverse-light.active {
 .panel .panel-heading {
     background: transparent;
     color: #242424;
-    font-family: "proxima_bold", sans-serif;
+    font-family: "roboto", sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 22px;
@@ -7169,7 +7169,7 @@ fieldset[disabled] .icons-danger.active {
     background: transparent;
     border-bottom: 0;
     border-top: 0;
-    font-family: "proxima_bold", sans-serif;
+    font-family: "roboto", sans-serif;
     border-right: 0;
     border-left: 0;
     font-size: 13px;
@@ -7207,7 +7207,7 @@ fieldset[disabled] .icons-danger.active {
     padding: 0 25px;
     background: transparent;
     border: 1px solid transparent;
-    font-family: "proxima_bold", sans-serif;
+    font-family: "roboto", sans-serif;
 }
 
 .tab-v4 .nav-tabs > li > a:hover {
@@ -8206,10 +8206,10 @@ body.version-3 #page {
 */
 
 #topbar {
-    background: #F64747;
+    /*background: #F64747;*/
     color: #000000;
     font-size: 13px;
-    border-bottom: 1px solid #F64747;
+    /*border-bottom: 1px solid #F64747;*/
     padding: 5px 0;
 }
 
@@ -8466,7 +8466,7 @@ body.version-3 #page {
 
 #header-layout.header-v3 .cart-inner a {
     color: #FFFFFF;
-    font-family: "proxima_semibold", sans-serif;
+    font-family: "roboto", sans-serif;
 }
 
 #header-bottom {
@@ -8839,12 +8839,12 @@ body.version-3 #page {
 }
 
 .footer-center {
-    background: #222;
+    background: #2c3e50;
     font-size: 16px;
 }
 
 .footer-center .container {
-    background-color: #222;
+    background-color: #2c3e50;
 }
 
 .footer-center .container .column {
@@ -8869,7 +8869,7 @@ body.version-3 #page {
 .footer-center .container .column .panel-title {
     font-size: 20px;
     color: #FFFFFF;
-    font-family: "proxima_regular", serif;
+    font-family: "roboto", serif;
 }
 
 .footer-center ul.contact-us {
@@ -8924,7 +8924,7 @@ body.version-3 #page {
 
 #powered .container .paypal a {
     text-transform: uppercase;
-    font-family: "proxima_semibold", sans-serif;
+    font-family: "roboto", sans-serif;
     margin: 0 8px;
 }
 
@@ -8959,7 +8959,7 @@ body.version-3 #page {
 
 .sidebar .panel .panel-heading .panel-title {
     line-height: 22px;
-    font-family: "proxima_extrabold", cursive;
+    font-family: "roboto", cursive;
 }
 
 .sidebar .panel .list-group .list-group-item {
@@ -9053,7 +9053,7 @@ body.version-3 #page {
     width: 100%;
     font-size: 16px;
     color: #242424;
-    font-family: "proxima_regular", sans-serif;
+    font-family: "roboto", sans-serif;
 }
 
 .price .price-new {
@@ -9109,7 +9109,7 @@ body.version-3 #page {
 .product-block .name a {
     color: #242424;
     font-size: 16px;
-    font-family: "proxima_regular", sans-serif;
+    font-family: "roboto", sans-serif;
     text-transform: none;
 }
 
@@ -9538,7 +9538,7 @@ body.version-3 #page {
 
 #pav-megamenu {
     background: transparent;
-    font-family: "proxima_semibold", sans-serif;
+    font-family: "roboto", sans-serif;
     min-height: auto;
     /* menu level 1 */
     /* level 2 */
@@ -9797,7 +9797,7 @@ body.version-3 #page {
     padding: 0;
     font-weight: 300;
     font-size: 14px;
-    font-family: "proxima_regular", sans-serif;
+    font-family: "roboto", sans-serif;
 }
 
 .rtl #pav-megamenu .dropdown-menu li a {
@@ -9842,7 +9842,7 @@ body.version-3 #page {
 }
 
 #pav-megamenu .dropdown-menu .mega-col .mega-col-inner .widget-html .widget-inner {
-    font-family: "proxima_regular", sans-serif;
+    font-family: "roboto", sans-serif;
     font-size: 14px;
     color: #333333;
 }
@@ -9952,7 +9952,7 @@ body.version-3 #page {
     display: block;
     letter-spacing: 3px;
     text-transform: uppercase;
-    font-family: "proxima_regular", sans-serif;
+    font-family: "roboto", sans-serif;
     color: #FFFFFF;
 }
 
@@ -9978,7 +9978,7 @@ body.version-3 #page {
 
 #pav-megamenu .dropdown-mega .menu-title {
     font-size: 14px;
-    font-family: "proxima_regular", sans-serif;
+    font-family: "roboto", sans-serif;
     position: relative;
     padding-left: 0;
     /*&:before {
@@ -10574,7 +10574,7 @@ body .owl-carousel .owl-wrapper-outer {
 
 .product-info .title-product {
     text-transform: none;
-    font-family: "proxima_regular", sans-serif;
+    font-family: "roboto", sans-serif;
 }
 
 .product-info .product-info-bg {
@@ -11043,7 +11043,7 @@ body .owl-carousel .owl-wrapper-outer {
     background: transparent;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: "proxima_semibold", sans-serif;
+    font-family: "roboto", sans-serif;
     text-transform: uppercase;
     font-size: 14px;
 }
@@ -11068,7 +11068,7 @@ body .owl-carousel .owl-wrapper-outer {
     font-size: 13px;
     padding: 5px 0;
     display: block;
-    font-family: "proxima_semibold", sans-serif;
+    font-family: "roboto", sans-serif;
     background: none;
 }
 
@@ -11393,7 +11393,7 @@ body .owl-carousel .owl-wrapper-outer {
 
 .hightlighted .product-block .description {
     color: #838383;
-    font-family: "proxima_regular", sans-serif;
+    font-family: "roboto", sans-serif;
     border-bottom: 1px solid #ececec;
     height: auto;
     padding-bottom: 34px;
@@ -11461,7 +11461,7 @@ body .owl-carousel .owl-wrapper-outer {
     color: #f05156;
     line-height: 40px;
     font-size: 13px;
-    font-family: "proxima_semibold", sans-serif;
+    font-family: "roboto", sans-serif;
 }
 
 .fearure-content a:hover {
@@ -11581,7 +11581,8 @@ body .owl-carousel .owl-wrapper-outer {
 }
 
 .autosearch-wrapper .autosearch-submit {
-    border: none;
+    /*border: none;*/
+    border-color: #2C3E50;
     display: inline-block;
     width: 18%;
     height: 35px;
@@ -11589,7 +11590,7 @@ body .owl-carousel .owl-wrapper-outer {
     float: right;
     color: #FFFFFF;
     text-transform: uppercase;
-    font-family: "proxima_semibold", sans-serif;
+    font-family: "roboto", sans-serif;
 }
 
 .rtl .autosearch-wrapper .autosearch-submit {
@@ -11673,7 +11674,7 @@ body .owl-carousel .owl-wrapper-outer {
     font-weight: 400;
     padding: 8px 30px;
     color: #FFFFFF;
-    font-family: "proxima_light", sans-serif;
+    font-family: "roboto", sans-serif;
     position: relative;
 }
 
@@ -11841,7 +11842,7 @@ body .owl-carousel .owl-wrapper-outer {
 }
 
 .verticalmenu .dropdown-menu ul > li > a {
-    font-family: "proxima_regular", serif;
+    font-family: "roboto", serif;
     color: #333333;
 }
 
@@ -11882,7 +11883,7 @@ body .owl-carousel .owl-wrapper-outer {
     font-size: 14px;
     color: #333;
     text-transform: uppercase;
-    font-family: "proxima_semibold", sans-serif;
+    font-family: "roboto", sans-serif;
 }
 
 .verticalmenu .bg1 div.dropdown-menu {
@@ -11919,7 +11920,7 @@ body .owl-carousel .owl-wrapper-outer {
 
 .productdeals .item-countdown li {
     color: #8a8a8a;
-    font-family: "proxima_bold", sans-serif;
+    font-family: "roboto", sans-serif;
     letter-spacing: 2px;
     border: 1px solid #ececec;
     padding: 15px 0;
@@ -12277,5 +12278,5 @@ body .owl-carousel .owl-wrapper-outer {
 }
 
 body {
-    background: #ffffff url("../image/pattern/furley_bg.png") repeat right top;
+    /*background: #ffffff url("../image/pattern/furley_bg.png") repeat right top;*/
 }
