@@ -15,28 +15,6 @@
             <a class="iframe-link btn quick-view" data-toggle="tooltip" data-placement="top" href="<?php echo $ourl->link('themecontrol/product','product_id='.$product['product_id']);?>"  title="<?php echo $objlang->get('quick_view'); ?>" ><i class="fa fa-arrows-alt"></i><?php echo $objlang->get('quick_view'); ?></a>
           </div> 
         </div>
-        <div class="action add-links clearfix">
-
-            <?php if( !isset($listingConfig['catalog_mode']) || !$listingConfig['catalog_mode'] ) { ?>
-              <div class="cart">            
-                 <button data-loading-text="Loading..." class="btn-action" type="button" data-toggle="tooltip" data-placement="top" title="<?php echo $button_cart; ?>" onclick="cart.addcart('<?php echo $product['product_id']; ?>');">
-                   <i class="fa fa-shopping-cart"></i>
-                </button>
-              </div>
-            <?php } ?>
-
-            <div class="compare">     
-              <button class="btn-action" type="button" data-toggle="tooltip" data-placement="top" title="<?php echo $objlang->get("button_compare"); ?>" onclick="compare.addcompare('<?php echo $product['product_id']; ?>');"><i class="fa fa-exchange"></i></button> 
-            </div>  
-            <div class="wishlist">
-              <button class="btn-action" type="button" data-toggle="tooltip" data-placement="top" title="<?php echo $objlang->get("button_wishlist"); ?>" onclick="wishlist.addwishlist('<?php echo $product['product_id']; ?>');"><i class="fa fa-heart"></i></button> 
-            </div>      
-            <div class="zoom hidden-xs hidden-sm">
-              <?php if( isset($categoryPzoom) && $categoryPzoom ) { $zimage = str_replace( "cache/","", preg_replace("#-\d+x\d+#", "",  $product['thumb'] ));  ?>
-                <a data-toggle="tooltip" data-placement="top" href="<?php echo $zimage;?>" class="product-zoom info-view colorbox cboxElement" title="<?php echo $product['name']; ?>"><i class="fa fa-search"></i></a>
-              <?php } ?>
-            </div>
-        </div>
       </div>
     <?php } ?>
   <div class="product-meta">

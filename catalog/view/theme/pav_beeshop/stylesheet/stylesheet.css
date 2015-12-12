@@ -8143,6 +8143,7 @@ fieldset[disabled] .icons-danger.active {
 
 .checkbox,
 .radio {
+    display: inline-block;
     padding-left: 20px;
 }
 
