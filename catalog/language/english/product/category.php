@@ -3,7 +3,7 @@
 $_['text_refine']       = 'Refine Search';
 $_['text_product']      = 'Products';
 $_['text_error']        = 'Category not found!';
-$_['text_empty']        = 'There are no products to list in this category.';
+$_['text_empty']        = '<h3 style="text-transform: none;">Our designers are working very had to get the designs ready. However you are very <b>special</b> for us. Contact our design team directly at <a href="mailto:sales@theclubstore.in"><u>sales@theclubstore.in</u></a> with your requirements and we will process your order.</h3>';
 $_['text_quantity']     = 'Qty:';
 $_['text_manufacturer'] = 'Brand:';
 $_['text_model']        = 'Product Code:';

@@ -66,6 +66,7 @@
     <table class="table table-bordered">
       <thead>
         <tr>
+          <td><b>Product ID</b></td>
           <td><b><?php echo $column_product; ?></b></td>
           <td><b><?php echo $column_model; ?></b></td>
           <td class="text-right"><b><?php echo $column_quantity; ?></b></td>
@@ -76,6 +77,7 @@
       <tbody>
         <?php foreach ($order['product'] as $product) { ?>
         <tr>
+          <td class="text-left"><?php echo $product['product_id']; ?></td>
           <td><?php echo $product['name']; ?>
             <?php foreach ($product['option'] as $option) { ?>
             <br />

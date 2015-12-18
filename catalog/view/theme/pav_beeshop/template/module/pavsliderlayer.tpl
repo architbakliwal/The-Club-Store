@@ -8,9 +8,9 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('#iview').iView({
-			pauseTime: <?php echo $sliderParams['delay'];?>,
+			// pauseTime: <?php echo $sliderParams['delay'];?>,
 			directionNav: false,
-			directionNavHide: false,
+			// directionNavHide: false,
 			controlNavNextPrev: true,
 			controlNav: true,
 			tooltipY: -15,

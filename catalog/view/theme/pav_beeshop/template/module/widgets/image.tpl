@@ -5,7 +5,7 @@
 	<?php } ?>
 	<div class="widget-inner img-adv box-content clearfix">
 		 <div class="image-item effect-adv">
-		 	<img class="img-responsive" alt=" " src="<?php echo $thumbnailurl; ?>"/>
+		 	<a href="<?php echo $link; ?>"><img class="img-responsive" alt=" " src="<?php echo $thumbnailurl; ?>"/></a>
 		 	<?php if( $ispopup ){ ?>
 		 	<a href="<?php echo $imageurl; ?>" class="pts-popup fancybox" title="<?php echo $this->language->get('Large Image');?>"><span class="icon icon-expand"></span></a>
 		 	<?php } ?>		  

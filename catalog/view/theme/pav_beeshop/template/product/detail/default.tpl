@@ -46,7 +46,7 @@
         <?php } ?>
 
         <ul class="list-unstyled">
-        <?php if ($tax) { ?>
+        <?php if (false) { ?>
             <li><?php echo $text_tax; ?> <?php echo $tax; ?></li>
         <?php } ?>
 

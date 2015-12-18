@@ -8141,11 +8141,12 @@ fieldset[disabled] .icons-danger.active {
     float: left;
 }
 
-.checkbox,
 .radio {
     display: inline-block;
     padding-left: 20px;
 }
+
+.checkbox {}
 
 .rtl .checkbox,
 .rtl .radio {
@@ -11585,9 +11586,10 @@ body .owl-carousel .owl-wrapper-outer {
     /*border: none;*/
     border-color: #2C3E50;
     display: inline-block;
-    width: 18%;
+    /*width: 18%;*/
     height: 35px;
     margin: 0;
+    margin-left: 5px;
     float: right;
     color: #FFFFFF;
     text-transform: uppercase;
