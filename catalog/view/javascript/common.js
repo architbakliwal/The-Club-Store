@@ -23,6 +23,20 @@ function getURLVar(key) {
 }
 
 $(document).ready(function() {
+    var $container = $('.infinitescroll');
+    $container.infinitescroll({
+        animate: true,
+        navSelector: '.pagination', // selector for the paged navigation 
+        nextSelector: '.pagination a', // selector for the NEXT link (to page 2)
+        itemSelector: '.product-grid .products-row', // selector for all items you'll retrieve
+        contentSelector: '.product-grid .products-block',
+        loading: {
+            finishedMsg: 'No more pages to load.',
+            msgText: "<em>Loading more products...</em>",
+            img: 'image/loading_infinite.gif',
+        }
+    });
+
     // Adding the clear Fix
     cols1 = $('#column-right, #column-left').length;
 

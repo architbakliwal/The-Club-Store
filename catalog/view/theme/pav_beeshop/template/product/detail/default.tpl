@@ -243,8 +243,8 @@
 
             <div class="action">
                 <div class="cart pull-left">
-                    <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-outline-inverse"><i class="fa fa-shopping-cart"></i><?php echo $BuyNowButton; ?></button>
-                    <button type="button" id="button-cart-add" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-outline-inverse"><i class="fa fa-shopping-cart"></i><?php echo $button_cart; ?></button>
+                    <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-outline-inverse"><i class="fa fa-bolt"></i> <?php echo $BuyNowButton; ?></button>
+                    <button type="button" id="button-cart-add" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-outline-inverse"><i class="fa fa-cart-plus"></i> <?php echo $button_cart; ?></button>
                 </div>
                 <div class="pull-left">  
                     <a data-toggle="tooltip" class="wishlist" title="<?php echo $button_wishlist; ?>" onclick="wishlist.addwishlist('<?php echo $product_id; ?>');"><i class="fa fa-heart"></i></a>

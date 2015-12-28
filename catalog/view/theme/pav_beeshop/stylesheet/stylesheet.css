@@ -9133,6 +9133,7 @@ body.version-3 #page {
 
 .product-block .image .img-responsive {
     display: inline-block;
+    width: 270px;
 }
 
 .product-block .product-meta {
@@ -12282,4 +12283,29 @@ body .owl-carousel .owl-wrapper-outer {
 
 body {
     /*background: #ffffff url("../image/pattern/furley_bg.png") repeat right top;*/
+}
+
+.pagination {
+    display: none;
+}
+
+.text-right {
+    display: none;
+}
+
+#infscr-loading {
+    text-align: center;
+    z-index: 100;
+    width: 200px;
+    background: white;
+    background: hsla( 0, 0%, 100%, 0.9);
+    padding: 20px;
+    color: #222;
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: bold;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }

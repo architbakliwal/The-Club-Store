@@ -20,7 +20,8 @@ $helper->addScript( 'catalog/view/javascript/bootstrap/js/bootstrap.min.js' );
 $helper->addScript( 'catalog/view/javascript/common.js' );
 $helper->addScript( 'catalog/view/theme/'.$themeName.'/javascript/common.js' );
 $helper->addScript('catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js');
-$helper->addScript('catalog/view/javascript/pavdeals/countdown.js');       
+$helper->addScript('catalog/view/javascript/pavdeals/countdown.js');
+$helper->addScript( 'catalog/view/javascript/jquery/jquery.infinitescroll.min.js' );
 
 
 if( isset($themeConfig['catalog_mode']) && $themeConfig['catalog_mode'] ){

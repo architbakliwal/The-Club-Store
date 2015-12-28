@@ -166,6 +166,37 @@ class ControllerthemecontrolProduct extends Controller {
 		$product_info = $this->model_catalog_product->getProduct($product_id);
 
 		if ($product_info) {
+
+			$this->load->model('setting/setting');
+			$this->load->language('module/buynow');
+			
+			$languageVariables= array(
+				'heading_title',
+				'buy_now'
+			);
+			
+			foreach ($languageVariables as $variable) {
+				$data[$variable] = $this->language->get($variable);
+			}
+			
+			$BuyNow = $this->model_setting_setting->getSetting('BuyNow', $this->config->get('store_id'));
+			$data['BuyNow'] = false;
+			if ( isset($BuyNow) && ($BuyNow['BuyNow']['Enabled'] == 'yes') ) {
+			
+				if(!isset($BuyNow['BuyNow']['ButtonName'][$this->config->get('config_language')])){
+					$data['BuyNowButton'] = $this->data['buy_now'];
+				} else {
+					$data['BuyNowButton'] = $BuyNow['BuyNow']['ButtonName'][$this->config->get('config_language')];
+				}
+				
+				if ( $BuyNow['BuyNow']['ShowWhere']=='all_products' ) {
+					$data['BuyNow'] = true;
+				} else if ( $BuyNow['BuyNow']['ShowWhere']=='specific_products' ) {
+					if ( isset($BuyNow['BuyNow']['Products']) && (in_array($product_id,$BuyNow['BuyNow']['Products'])) )
+						$data['BuyNow'] = true;						
+				}
+			}
+			
 			$url = '';
 
 			if (isset($this->request->get['path'])) {

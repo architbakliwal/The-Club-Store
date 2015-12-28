@@ -117,6 +117,10 @@ $('select[name=\'recurring_id\'], input[name="quantity"]').change(function(){
 		},
 		success: function(json) {
 			$('.alert, .text-danger').remove();
+
+			if (json['redirect'] && !json['error']) {
+				location = json['redirect'];
+			}
 			
 			if (json['success']) {
 				$('#recurring-description').html(json['success']);

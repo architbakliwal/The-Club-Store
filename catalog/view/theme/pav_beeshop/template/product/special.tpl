@@ -2,7 +2,7 @@
 <div class="main-columns container">
     
   <?php require( ThemeControlHelper::getLayoutPath( 'common/mass-container.tpl' )  ); ?>
-  <div class="row"><?php if( $SPAN[0] ): ?>
+  <div class="row infinitescroll"><?php if( $SPAN[0] ): ?>
 			<aside id="sidebar-left" class="col-md-<?php echo $SPAN[0];?>">
 				<?php echo $column_left; ?>
 			</aside>	
